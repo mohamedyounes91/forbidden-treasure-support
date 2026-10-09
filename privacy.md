@@ -1,6 +1,6 @@
 # Privacy Policy for Forbidden Treasure
 
-**Last updated: September 24, 2026**
+**Last updated: October 9, 2026**
 
 Forbidden Treasure ("the Game") is developed and published by Mohamed Younes ("Developer", "we", "us", or "our").
 
@@ -16,11 +16,11 @@ The Game uses Firebase Authentication to create and manage user identities. A un
 
 When Google Sign-In is used, authentication is handled through Google and Firebase Authentication.
 
-Forbidden Treasure does not use your Google email address, real name, or Google profile photo as part of your Game profile.
+Google and Firebase Authentication may process your Google email address, display name and profile information to authenticate you. Forbidden Treasure does not use these details as your public Game profile or expose them on the leaderboard.
 
 ### Nickname
 
-Players choose an in-game nickname.
+Google-account players choose an in-game nickname after accepting the explorer name policy. Guest accounts receive an automatically assigned numeric Guest name. Existing guest names may be preserved.
 
 Your nickname is associated with your game account and may be displayed publicly on the global leaderboard.
 
@@ -47,7 +47,11 @@ Forbidden Treasure includes a global leaderboard.
 
 Your selected nickname and best score may be publicly visible to other players.
 
-A technical account identifier may also be used internally as part of the leaderboard record.
+The leaderboard's technical record identifier is currently the Firebase UID and is publicly accessible, along with its update timestamp. Google email, real name, profile photo and private cloud progression are not part of the public leaderboard.
+
+### Name Safety and Reports
+
+Starting with the updated release, players can report inappropriate leaderboard names. A report records the reporter and reported account identifiers, the reported nickname, the reason and a server timestamp. Reports are private to the reporter and authorized administrators; they are not public leaderboard data. Reports are used to review abuse and may be removed when resolved. A device-local hide list lets you hide players without changing their scores or accounts; you can reset it with Show All on the leaderboard. This list is separate for each account on the device and is not uploaded as cloud progression.
 
 ### Advertising and Device Information
 
@@ -109,7 +113,7 @@ Internet transmission and electronic storage cannot be guaranteed to be complete
 
 Certain data is transmitted to Google services used to provide authentication, cloud storage, security, and advertising functionality.
 
-Public leaderboard information, including your chosen nickname and best score, can be visible to other players.
+Public leaderboard information, including your nickname, best score, technical account identifier and update timestamp, can be visible to other players.
 
 We do not sell personal information to third parties.
 
@@ -126,6 +130,7 @@ Deleting your account is intended to permanently remove the account and associat
 - Nickname reservation
 - Global leaderboard entry
 - Associated Firebase Authentication account
+- Name reports submitted by that account
 
 Progression belonging to the deleted account stored locally by the Game is also erased as part of the deletion flow.
 
@@ -137,7 +142,7 @@ If you no longer have access to the Game, you may submit an account and data del
 
 Account-related game data is retained while your account remains active or as necessary to provide the Game's features.
 
-When account deletion is successfully completed, the associated Forbidden Treasure account data described above is deleted.
+When account deletion is successfully completed, the associated Forbidden Treasure account data described above is deleted. Reports submitted by other players about an account may be retained temporarily for abuse review and deleted when no longer needed; they are not publicly readable. Anonymous allocation markers contain only an allocated-number flag, with no UID or player data, and may remain to prevent reuse of guest numbers.
 
 Information processed independently by third-party service providers may be subject to those providers' applicable retention requirements and policies.
 
@@ -169,3 +174,4 @@ For privacy questions, account/data deletion requests, or other privacy-related 
 When requesting account deletion by email, please provide your Forbidden Treasure nickname and enough information for us to identify and appropriately verify the account.
 
 Do not send passwords, authentication codes, or other sensitive credentials.
+
