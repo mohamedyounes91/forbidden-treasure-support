@@ -1,6 +1,6 @@
 # Forbidden Treasure – Account & Data Deletion
 
-**Last updated: September 24, 2026**
+**Last updated: October 9, 2026**
 
 Forbidden Treasure allows players to permanently delete their account and associated game data.
 
@@ -24,6 +24,7 @@ Account deletion removes the Forbidden Treasure data associated with the account
 - Global leaderboard entry
 - Associated Firebase Authentication account
 - Local progression belonging to the deleted account
+- Name reports submitted by the deleted account
 
 Account deletion cannot be undone.
 
@@ -50,7 +51,13 @@ Once the account has been appropriately identified and the deletion request has 
 
 Forbidden Treasure account data is retained while the account remains active or as necessary to provide the Game's features.
 
-After successful account deletion, the associated account data controlled by Forbidden Treasure is deleted.
+After successful account deletion, the associated account data listed above and controlled by Forbidden Treasure is deleted.
+
+Reports submitted by other players about an account may remain temporarily for abuse review and are deleted when no longer needed. They are not public leaderboard records. Guest-number allocation markers contain only an allocated-number flag, not a Firebase User ID or other player data, and may remain to prevent reusing guest numbers.
+
+For email requests, we verify ownership before deleting server data and explain any additional verification needed. If the Game is uninstalled or the device is unavailable, an email request can remove account data on our servers but cannot remotely erase files on that device.
+
+See the current [Forbidden Treasure Privacy Policy](https://mohamedyounes91.github.io/forbidden-treasure-support/privacy.html) for details of data handling and retention.
 
 Information processed independently by third-party service providers may remain subject to their own retention requirements and privacy policies.
 

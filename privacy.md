@@ -57,7 +57,16 @@ Starting with the updated release, players can report inappropriate leaderboard 
 
 Forbidden Treasure uses Google AdMob to provide optional rewarded advertisements.
 
-Google advertising services may process information such as device or advertising identifiers, including the Android Advertising ID where available, and technical information such as device, network, and IP-related information.
+Google advertising services collect and share advertising-related data, including:
+
+- Device and account identifiers, such as the Android Advertising ID where available and app set identifiers
+- IP address and approximate location inferred from it; the Game does not request precise GPS location
+- App and advertising interactions, such as app launches, taps and video views
+- SDK and app diagnostics and performance information, such as launch time, hangs and energy usage
+
+This data supports advertising, advertising analytics and fraud prevention. Advertising SDK data is transmitted using TLS encryption. The Game does not directly integrate Firebase Analytics or Firebase Crashlytics; advertising services still process their own analytics and diagnostic data.
+
+Watching rewarded advertisements is optional. Advertising services may initialize and preload advertisements before you choose to watch one, once the applicable advertising privacy requirements permit requests. Choosing not to watch a reward advertisement is therefore not, by itself, an opt-out from all advertising SDK data processing.
 
 Advertising-related data is processed according to Google's applicable privacy practices.
 
@@ -100,6 +109,8 @@ Forbidden Treasure uses services provided by Google, including:
 - Google Credential Manager / Google Sign-In services
 
 These services may process information according to their own privacy policies and terms.
+
+See [Google’s Privacy Policy](https://policies.google.com/privacy) and [Google’s advertising information](https://policies.google.com/technologies/ads).
 
 ## 4. Data Storage and Security
 
