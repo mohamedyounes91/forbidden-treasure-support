@@ -1,6 +1,6 @@
 # Privacy Policy for Forbidden Treasure
 
-**Last updated: October 9, 2026**
+**Last updated: November 7, 2026**
 
 Forbidden Treasure ("the Game") is developed and published by Mohamed Younes ("Developer", "we", "us", or "our").
 
@@ -64,7 +64,7 @@ Google advertising services collect and share advertising-related data, includin
 - App and advertising interactions, such as app launches, taps and video views
 - SDK and app diagnostics and performance information, such as launch time, hangs and energy usage
 
-This data supports advertising, advertising analytics and fraud prevention. Advertising SDK data is transmitted using TLS encryption. The Game does not directly integrate Firebase Analytics or Firebase Crashlytics; advertising services still process their own analytics and diagnostic data.
+This data supports advertising, advertising analytics and fraud prevention. Advertising SDK data is transmitted using TLS encryption. The Game does not directly integrate Firebase Crashlytics. Advertising services process their own analytics and diagnostic data, separately from optional gameplay analytics.
 
 Watching rewarded advertisements is optional. Advertising services may initialize and preload advertisements before you choose to watch one, once the applicable advertising privacy requirements permit requests. Choosing not to watch a reward advertisement is therefore not, by itself, an opt-out from all advertising SDK data processing.
 
@@ -73,6 +73,18 @@ Advertising-related data is processed according to Google's applicable privacy p
 The Game uses Google's User Messaging Platform (UMP) where applicable to manage advertising privacy choices and consent.
 
 Players can continue using the Game without choosing to watch rewarded advertisements.
+
+### Optional Gameplay Analytics
+
+Gameplay analytics collection is disabled in the current public release and in the prepared Android update. Some builds include the Google Analytics for Firebase SDK, but including the SDK does not turn on gameplay analytics. Advertising analytics described above is separate.
+
+If we enable optional gameplay analytics in a future version, the Game will ask for your permission before collecting it. You can play without allowing it. In versions where the option is available, go to **Settings → Gameplay Analytics** to review your choice or turn it off. Your choice is separate from advertising privacy choices and from signing in or playing as a Guest.
+
+If you allow it, Google Analytics for Firebase may receive automatic app and session events (such as first open, session start and engagement) and gameplay events (such as reaching the main menu, starting or finishing a run, distance and active play time, deaths, retries, revives, mission completion and character unlocks). We use this information to understand where players stop playing, measure how often they return and improve the Game.
+
+Google may process a pseudonymous app-instance identifier, basic app and device information, and approximate location inferred from the network. Our custom gameplay events do not contain your name, nickname, email, Firebase account identifier, precise location or advertising identifier. Gameplay analytics is not used by the Game to personalize ads.
+
+Turning off gameplay analytics stops future collection and clears local analytics data. It does not automatically delete data already sent to Google. The Game does not link gameplay analytics to your account identifier, and deleting your game account does not automatically delete analytics records. Contact us using the details below for privacy or deletion requests.
 
 ### Security and Integrity
 
@@ -91,6 +103,7 @@ Information processed by Forbidden Treasure is used to:
 - Provide gameplay features
 - Provide optional rewarded advertisements
 - Manage advertising privacy choices
+- Improve gameplay and understand engagement if optional gameplay analytics is available and you allow it
 - Protect the Game and its backend services from abuse or unauthorized access
 - Support account and data deletion
 
@@ -103,6 +116,7 @@ Forbidden Treasure uses services provided by Google, including:
 - Firebase Authentication
 - Cloud Firestore
 - Firebase App Check
+- Google Analytics for Firebase (gameplay analytics collection currently disabled)
 - Google Play Integrity
 - Google AdMob
 - Google User Messaging Platform
@@ -123,6 +137,8 @@ Internet transmission and electronic storage cannot be guaranteed to be complete
 ## 5. Data Sharing
 
 Certain data is transmitted to Google services used to provide authentication, cloud storage, security, and advertising functionality.
+
+If optional gameplay analytics is made available and you allow it, the analytics data described above is transmitted to Google for measurement.
 
 Public leaderboard information, including your nickname, best score, technical account identifier and update timestamp, can be visible to other players.
 
@@ -155,6 +171,8 @@ Account-related game data is retained while your account remains active or as ne
 
 When account deletion is successfully completed, the associated Forbidden Treasure account data described above is deleted. Reports submitted by other players about an account may be retained temporarily for abuse review and deleted when no longer needed; they are not publicly readable. Anonymous allocation markers contain only an allocated-number flag, with no UID or player data, and may remain to prevent reuse of guest numbers.
 
+No gameplay analytics data is being collected through the currently disabled integration. Before enabling it in a public release, we will update this policy to state the applicable retention period for user-level analytics data. Aggregate reports may be kept longer.
+
 Information processed independently by third-party service providers may be subject to those providers' applicable retention requirements and policies.
 
 ## 8. Children's Privacy
@@ -185,4 +203,3 @@ For privacy questions, account/data deletion requests, or other privacy-related 
 When requesting account deletion by email, please provide your Forbidden Treasure nickname and enough information for us to identify and appropriately verify the account.
 
 Do not send passwords, authentication codes, or other sensitive credentials.
-
