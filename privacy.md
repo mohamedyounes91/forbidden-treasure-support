@@ -1,6 +1,6 @@
 # Privacy Policy for Forbidden Treasure
 
-**Last updated: November 7, 2026**
+**Last updated: November 10, 2026**
 
 Forbidden Treasure ("the Game") is developed and published by Mohamed Younes ("Developer", "we", "us", or "our").
 
@@ -76,9 +76,9 @@ Players can continue using the Game without choosing to watch rewarded advertise
 
 ### Optional Gameplay Analytics
 
-Gameplay analytics collection is disabled in the current public release and in the prepared Android update. Some builds include the Google Analytics for Firebase SDK, but including the SDK does not turn on gameplay analytics. Advertising analytics described above is separate.
+Gameplay analytics collection is disabled in version 20 and earlier. Starting with version 21, supported releases offer optional gameplay analytics powered by Google Analytics for Firebase. It is off by default and is separate from the advertising analytics described above.
 
-If we enable optional gameplay analytics in a future version, the Game will ask for your permission before collecting it. You can play without allowing it. In versions where the option is available, go to **Settings → Gameplay Analytics** to review your choice or turn it off. Your choice is separate from advertising privacy choices and from signing in or playing as a Guest.
+The Game asks for your permission before collecting gameplay analytics. You can play without allowing it. In versions where the option is available, go to **Settings → Gameplay Analytics** to review your choice or turn it off. Your choice is separate from advertising privacy choices and from signing in or playing as a Guest.
 
 If you allow it, Google Analytics for Firebase may receive automatic app and session events (such as first open, session start and engagement) and gameplay events (such as reaching the main menu, starting or finishing a run, distance and active play time, deaths, retries, revives, mission completion and character unlocks). We use this information to understand where players stop playing, measure how often they return and improve the Game.
 
@@ -116,7 +116,7 @@ Forbidden Treasure uses services provided by Google, including:
 - Firebase Authentication
 - Cloud Firestore
 - Firebase App Check
-- Google Analytics for Firebase (gameplay analytics collection currently disabled)
+- Google Analytics for Firebase (optional gameplay analytics in supported versions)
 - Google Play Integrity
 - Google AdMob
 - Google User Messaging Platform
@@ -171,7 +171,7 @@ Account-related game data is retained while your account remains active or as ne
 
 When account deletion is successfully completed, the associated Forbidden Treasure account data described above is deleted. Reports submitted by other players about an account may be retained temporarily for abuse review and deleted when no longer needed; they are not publicly readable. Anonymous allocation markers contain only an allocated-number flag, with no UID or player data, and may remain to prevent reuse of guest numbers.
 
-No gameplay analytics data is being collected through the currently disabled integration. Before enabling it in a public release, we will update this policy to state the applicable retention period for user-level analytics data. Aggregate reports may be kept longer.
+For optional gameplay analytics, our Google Analytics property is configured to retain ordinary event-level data for 2 months and user-level data for 14 months. New activity can reset the 14-month period for the relevant analytics identifier. Standard aggregate reports may remain available for longer.
 
 Information processed independently by third-party service providers may be subject to those providers' applicable retention requirements and policies.
 
